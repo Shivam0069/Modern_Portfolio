@@ -81,7 +81,7 @@ export const projects = [
   {
     id: 2,
     title: "Google Clone",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    des: "A Google clone is a web application that replicates the core functionalities of Google's search engine, including search query handling, displaying search results, and providing a user-friendly interface.",
     img: "/Google.webp",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://github.com/Shivam0069/Google_CLone",
@@ -90,7 +90,7 @@ export const projects = [
   {
     id: 3,
     title: "Instagram Clone",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    des: "An Instagram clone is a web application that mimics the features of Instagram, allowing users to create accounts, post photos, follow other users, like and comment on posts, and view a feed of updates.",
     img: "/instaa.jpeg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: " https://github.com/Shivam0069/instagram-clone",
@@ -98,7 +98,7 @@ export const projects = [
   {
     id: 4,
     title: "IMDB Clone",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    des: "An IMDb clone is a web application that replicates the features of IMDb, enabling users to search for movies, TV shows, and celebrity information, read reviews, view ratings, and browse through entertainment-related content.",
     img: "/IMDb.webp",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://github.com/Shivam0069/IMDB_Clone",
