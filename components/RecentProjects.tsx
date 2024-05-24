@@ -2,6 +2,7 @@ import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa";
+import Link from "next/link";
 
 export default function RecentProjects() {
   return (
@@ -17,7 +18,10 @@ export default function RecentProjects() {
             className="sm:h-[41rem] lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
           >
             <PinContainer title={link} href={link}>
-              <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh]  mb-10">
+              <Link
+                href={link}
+                className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh]  mb-10"
+              >
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
@@ -25,7 +29,7 @@ export default function RecentProjects() {
                   <img src="/bg.png" alt="br-Img" />
                 </div>
                 <img src={img} alt={title} className="z-10 absolute bottom-0" />
-              </div>
+              </Link>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                 {title}
               </h1>

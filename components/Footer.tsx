@@ -33,6 +33,7 @@ const Footer = () => {
             title="Let's get in touch"
             icon={<FaLocationArrow />}
             position="right"
+            otherClasses="py-1"
           />
         </a>
       </div>
