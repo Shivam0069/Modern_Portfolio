@@ -98,7 +98,7 @@ export const projects = [
   {
     id: 1,
     title: "Let's Meet - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    des: "Simplify your video conferencing experience with Let's Meet. Seamlessly connect with colleagues and friends.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://letsmeetnow.vercel.app/",
